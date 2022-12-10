@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FASHIONZ</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- styling for the page -->
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- header begins here -->
+        <header>
+            <img class="logo" src="./assets/images/logo.png" alt="logo image">
+            <label class="user-profile" for="profile-icon">
+            <input type="checkbox" id="profile-icon" onclick="displayUserProfile()"/>
+            </label>
+        </header>
+        <!-- main content -->
+        <main>
+            <!-- images with favourite and size -->
+            <div class="card-wrapper">
+                <div class="card card-1">
+                    <div class="image-wrapper">
+                        <img class="image-card" src="./assets/images/products/shirt.png" alt="shirt" />
+                        <p class="favourite">☆</p>
+                        <div class="size">
+                            <p>S</p>
+                        </div>
+                    </div>
+                    <h4 class="card-heading">Bath Wardrobe</h4>
+                    <p class="prices">₹850</p>
+                    <button class="btn">ADD TO CART</button>
+                </div>
+                <div class="card card-2">
+                    <div class="image-wrapper">
+                        <img class="image-card" src="./assets/images/products/jacket.png" alt="jacket" />
+                        <p class="favourite">☆</p>
+                        <div class="size">
+                            <p>M</p>
+                        </div>
+                    </div>
+                    <h4 class="card-heading">Winter Jacket</h4>
+                    <p class="prices">₹2399</p>
+                    <button class="btn">ADD TO CART</button>
+                </div>
+                <div class="card card-3">
+                    <div class="image-wrapper">
+                        <img class="image-card" src="./assets/images/products/tshirt.png" alt="tshirt" />
+                        <p class="favourite">☆</p>
+                        <div class="size">
+                            <p>S</p>
+                        </div>
+                    </div>
+                    <h4 class="card-heading">Red Round Neck</h4>
+                    <p class="prices">₹350</p>
+                    <button class="btn">ADD TO CART</button>
+                </div>
+                <div class="card card-4">
+                    <div class="image-wrapper">
+                        <img class="image-card" src="./assets/images/products/sweatshirt.png" alt="sweatshirt" />
+                        <p class="favourite">☆</p>
+                        <div class="size">
+                            <p>S</p>
+                        </div>
+                    </div>
+                    <h4 class="card-heading">Sweat Shirt</h4>
+                    <p class="prices">₹2399</p>
+                    <button class="btn">ADD TO CART</button>
+                </div>
+                <div class="card card-5">
+                    <div class="image-wrapper">
+                        <img class="image-card" src="./assets/images/products/shirt.png" alt="shirt" />
+                        <p class="favourite">☆</p>
+                        <div class="size">
+                            <p>S</p>
+                        </div>
+                    </div>
+                    <h4 class="card-heading">Bath Wardrobe</h4>
+                    <p class="prices">₹850</p>
+                    <button class="btn">ADD TO CART</button>
+                </div>
+                <div class="card card-6">
+                    <div class="image-wrapper">
+                        <img class="image-card" src="./assets/images/products/jacket.png" alt="jacket" />
+                        <p class="favourite">☆</p>
+                        <div class="size">
+                            <p>M</p>
+                        </div>
+                    </div>
+                    <h4 class="card-heading">Winter Jacket</h4>
+                    <p class="prices">₹2399</p>
+                    <button class="btn">ADD TO CART</button>
+                </div>
+                <div class="card card-7">
+                    <div class="image-wrapper">
+                        <img class="image-card" src="./assets/images/products/tshirt.png" alt="tshirt" />
+                        <p class="favourite">☆</p>
+                        <div class="size">
+                            <p>S</p>
+                        </div>
+                    </div>
+                    <h4 class="card-heading">Red Round Neck</h4>
+                    <p class="prices">₹350</p>
+                    <button class="btn">ADD TO CART</button>
+                </div>
+                <div class="card card-8">
+                    <div class="image-wrapper">
+                        <img class="image-card" src="./assets/images/products/sweatshirt.png" alt="sweatshirt" />
+                        <p class="favourite">☆</p>
+                        <div class="size">
+                            <p>S</p>
+                        </div>
+                    </div>
+                    <h4 class="card-heading">Sweat Shirt</h4>
+                    <p class="prices">₹2399</p>
+                    <button class="btn">ADD TO CART</button>
+                </div>
+            </div>
+            <!-- profile list -->
+            <div class="profile-details" id="profileDetails">
+                <ul>
+                    <li class="profile">My Account</li>
+                    <li class="profile">My Orders</li>
+                    <li class="profile">My Wish List</li>
+                    <li class="profile">Logout</li>
+                </ul>
+            </div>
+        </main>
+
+        <!-- types of clothing -->
+        <footer>
+            <ul class="footer-clothing-type">
+                <li class="clothing-type">Jackets</li>
+                <li class="clothing-type">Skirts</li>
+                <li class="clothing-type">Trousers</li>
+                <li class="clothing-type">Pants</li>
+                <li class="clothing-type">Shoes</li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
